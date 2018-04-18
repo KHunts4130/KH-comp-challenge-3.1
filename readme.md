@@ -15,8 +15,6 @@ Create a repo on github :octocat: for your work with following naming construct:
 Include a README with the repo that provides a brief overview of the project, and images of both the original comp and your version.
 Push your final work to github pages
 
-(Screen Shot 2018-04-18 at 8.44.25 AM.png)
-
-(Screen Shot 2018-04-18 at 8.44.31 AM.png)
-
-(Screen Shot 2018-04-18 at 8.44.45 AM.png)
+<img width="1440" alt="screen shot 2018-04-18 at 8 44 25 am" src="https://user-images.githubusercontent.com/31703511/38939941-45d3315c-42e6-11e8-88b0-094c1b096bbc.png">
+<img width="1440" alt="screen shot 2018-04-18 at 8 44 31 am" src="https://user-images.githubusercontent.com/31703511/38939950-49a5995a-42e6-11e8-8013-90fbbc9a4500.png">
+<img width="1440" alt="screen shot 2018-04-18 at 8 44 45 am" src="https://user-images.githubusercontent.com/31703511/38939952-4b93b2ec-42e6-11e8-8827-3595aa917190.png">
