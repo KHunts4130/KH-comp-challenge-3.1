@@ -41,7 +41,7 @@ ul:hover {
   background-color: #354052;
   color: #A5ADBF;
   font-size: 0.9rem;
-  height: 220%;
+  height: 250%;
   left: 0;
   position: absolute;
   top: 0;
@@ -52,11 +52,11 @@ ul:hover {
   color: #A5ADBF;
 }
 
-.nav-box-header{
+.nav-box-header {
   padding-left: 10px;
 }
 
-.lists li{
+.lists li {
   padding: 10px;
   margin-left: -10px;
 }
@@ -77,15 +77,15 @@ span {
   color: #A5ADBF;
 } 
 
-span:hover{
+span:hover {
   cursor: pointer;
 }
 
-.icon:hover{
+.icon:hover {
   cursor: pointer;
 }
 
-.icon{
+.icon {
   margin-left: -30px
 }
 
@@ -102,7 +102,7 @@ span:hover{
 }
   
 .search-input {
-  border: none;
+  border: 1px solid;
   color: #53565A;
   font-family: sans-serif;
   font-size: 1.3rem;
@@ -114,11 +114,11 @@ span:hover{
   top: 0;
   width: 700px;
 } 
+
 .upper-dashboard-top {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
 
 .top-search {
@@ -128,9 +128,7 @@ span:hover{
   margin: 0 auto;
 }
 
-
-
-.top-search button{
+.top-search button {
   background-color: blue;
   border: none;
   color: #848990;
@@ -249,7 +247,7 @@ span:hover{
   width: 413px;
 }
 
-.graph-button{
+.graph-button { 
   align-self: center;
   border: 2px solid #CBCED1;
   color: #53565A;
@@ -268,11 +266,9 @@ span:hover{
   cursor: pointer;
 }
 
-.content-bottom{
+.content-bottom {
   background-color: #EDF2F6;
   display: inline-flex;
-  /*flex-wrap: wrap;*/
-  /*justify-content: center;*/
 }
 
 .job-description {
@@ -344,6 +340,7 @@ td {
 .twitter {
   background-color: #00A8EF;
   flex-direction: center;
+  width: 25%;
 }
 
 .linkedin {
@@ -351,12 +348,94 @@ td {
   margin-bottom: 12px;
 }
 
-.job-section {
-  display: flex;
-  flex-direction: column;
-}
 
 /*Media Queries*/
+
+@media (max-width: 950px) {
+  
+  .profile-pic {
+    border-radius: 50%;
+    height: 70px;
+    margin: 32px 0 0 14px;
+    text-align: center;
+    width: 70px;
+  }
+
+  .profile-name {
+    padding-left: 25px;
+  }
+
+  .content-bottom {
+    width: 85%;
+  }
+
+  .nav-bar {
+    width: 100px;
+  }
+
+  .main-container {
+    left: 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  
+  .nav-box-header {
+    font-size: 12px;
+  }
+
+  .lists li {
+    font-size: 8px;
+  }
+
+  .circle-graph-container {
+    height: 900px;
+  }
+
+  .circle-graphs {
+    height: 200px;
+    padding-right: 20px;
+    position: relative;
+    width: 400px;
+  }
+
+  .graph-img {
+    position: relative;
+    padding-bottom: 500px;
+    width: 413px;
+  }
+  
+  .bar-graph-button {
+    align-self: center;
+    margin-top: -110px;
+    position: absolute;
+    width: 150px;
+}
+
+@media (max-width: 5500px) {
+    .graph-img {
+      width: 250px;
+    }
+
+    .circle-graphs {
+      padding-right: 20px;
+      position: relative;
+      width: 200px;
+    }
+
+    .bar-graph-button {
+      align-self: center;
+      margin-top: -110px;
+      position: absolute;
+      width: 100px;
+    }
+
+    .graph-button {
+      align-self: center;
+      margin-top: -60px;
+      width: 125px;
+    }
+}
 
 
 
